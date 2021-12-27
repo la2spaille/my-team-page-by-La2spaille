@@ -3,6 +3,7 @@
 }
 .w-2-units-wrapper-left {
     h1 {
+        position: relative;
         font-family: 'PT', Serif;
         font-weight: bold;
         font-size: 36px;
@@ -16,7 +17,7 @@
             height: 2px;
             position: absolute;
             bottom: -5px;
-            background: $darkGray;
+            background: $black;
             transform: scale(0);
             transform-origin: center center;
             transition: 0.7s;

@@ -43,12 +43,30 @@ a {
 }
 
 .w-2-units-wrapper-left h1 {
+  position: relative;
   font-family: 'PT', Serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 47px;
   letter-spacing: -0.045em;
   color: #000000;
+}
+
+.w-2-units-wrapper-left h1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -5px;
+  background: #000000;
+  transform: scale(0);
+  transform-origin: center center;
+  transition: 0.7s;
+}
+
+.w-2-units-wrapper-left h1:hover::after {
+  transform: scale(1);
 }
 
 .w-2-units-wrapper-right {
