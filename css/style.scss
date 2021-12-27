@@ -6,14 +6,11 @@
     .l-2-units-wrapper {
         padding: 0 100px;
     }
-    .l-1-units-wrapper {
+    .l-1-unit-wrapper {
         padding: 0 100px  ;
     }
 }
 @media (max-width: 1000px) {
-    header {
-        padding: 20px 0;
-    }
     #l-main-section {
         padding: 70px 0 170px;
     }
@@ -21,7 +18,7 @@
         flex-direction: column;
         padding: 0 75px;
     }
-    .l-1-units-wrapper {
+    .l-1-unit-wrapper {
         padding: 0 75px  ;
     }
     .w-2-units-wrapper-left,.w-2-units-wrapper-right {
@@ -56,7 +53,7 @@
         flex-direction: column;
         padding: 0 12.5px;
     }
-    .l-1-units-wrapper {
+    .l-1-unit-wrapper {
         padding: 0 35px 0 20px ;
     }
 }
