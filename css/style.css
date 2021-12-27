@@ -156,7 +156,7 @@ a {
   }
   .w-gallery-elements {
     width: 42.5%;
-    marginmargin: 0 !important;
+    margin: 0 !important;
   }
   .w-gallery-elements.mobile-margin-top {
     margin: 65px 0 0 !important;
