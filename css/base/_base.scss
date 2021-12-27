@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-transform: none;
+    transition: 0.15s;
+    list-style: none;
+    user-select: none;
+    color: inherit;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Poppins' ,sans-serif;
+    letter-spacing: -0.035em;
+    color: $black;
+}
+a {
+    text-transform: uppercase;
+}

@@ -1,0 +1,11 @@
+#l-main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 0 155px;
+}
+.l-2-units-wrapper,.l-1-units-wrapper {
+    display: flex;
+    padding: 0 240px;
+}

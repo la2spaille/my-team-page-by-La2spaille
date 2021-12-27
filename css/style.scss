@@ -1,0 +1,62 @@
+@import "./utils/variables";
+@import "./base/base";
+@import "./layouts/sections";
+@import "./pages/my-team";
+@media (max-width:1280px) {
+    .l-2-units-wrapper {
+        padding: 0 100px;
+    }
+    .l-1-units-wrapper {
+        padding: 0 100px  ;
+    }
+}
+@media (max-width: 1000px) {
+    header {
+        padding: 20px 0;
+    }
+    #l-main-section {
+        padding: 70px 0 170px;
+    }
+    .l-2-units-wrapper {
+        flex-direction: column;
+        padding: 0 75px;
+    }
+    .l-1-units-wrapper {
+        padding: 0 75px  ;
+    }
+    .w-2-units-wrapper-left,.w-2-units-wrapper-right {
+        width: 100%;
+    }
+    .w-2-units-wrapper-right {
+        padding: 40px 0 0;
+    }
+    .w-gallery {
+        padding: 40px 0 0;
+    }
+    .w-gallery-elements {
+        width: 42.5%;
+        padding: 0 !important;
+        &.mobile-padding-top {
+            padding: 65px 0 0 !important;
+        }
+        span {
+        transform: translateX(20px) rotate(90deg);
+
+        }
+    }
+}
+@media (max-width: 739px) {
+    header {
+        padding: 20px 0;
+    }
+    #l-main-section {
+        padding: 70px 0 170px;
+    }
+    .l-2-units-wrapper {
+        flex-direction: column;
+        padding: 0 12.5px;
+    }
+    .l-1-units-wrapper {
+        padding: 0 35px 0 20px ;
+    }
+}

@@ -2,94 +2,81 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="description" content="Author: la2spaille">
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1,
   maximum-scale=5"
     />
-
-    <link rel="icon" href="devchallenges.png" />
-
+    <link rel="icon" href="images/devchallenges.png" />
+    <link rel="stylesheet" href="css/style.css">
     <link
       rel="shortcut icon"
       type="image/x-icon"
       href="https://devchallenges.io/"
     />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
-
     <title>Devchallenges</title>
-
     <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
+      @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif:wght@700&family=Poppins:wght@400;600&display=swap');
+      .attribution { font-family: 'Montserrat', sans-serif; letter-spacing: normal; font-size: 14px; font-weight: 400;line-height: 17px; text-align: center;position: absolute; bottom: 0; width: 100vw; left: 0;padding: 25px 0; color:#bdbdbd ;  }
+      .attribution a {text-transform: none;}
+      .attribution span { font-weight: 700; text-decoration: underline;}
     </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <section id="l-main-section" role="main">
+      <div class="l-2-units-wrapper">
+        <div class="w-2-units-wrapper-left">
+          <h1>The creative crew</h1>
+        </div>
+        <div class="w-2-units-wrapper-right">
+          <h3>Who we are</h3>
+          <p>We are team of creatively diverse.  driven.  innovative individuals working in various locations from the world.</p>
+        </div>
       </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      <div class="l-1-units-wrapper">
+        <div class="w-gallery">
+          <div class="w-gallery-elements padding-bottom">
+            <img src="images/photo1.png" alt="img">
+            <strong>Bill Mahoney</strong>
+            <span>Product owner</span>
+          </div>
+          <div class="w-gallery-elements padding-top mobile-padding-top">
+            <img src="images/photo2.png" alt="img">
+            <strong>Saba Cabrera</strong>
+            <span>Art director</span>
+          </div>
+          <div class="w-gallery-elements padding-bottom">
+            <img src="images/photo3.png" alt="img">
+            <strong>Shae Le</strong>
+            <span>Tech Lead</span>
+          </div>
+          <div class="w-gallery-elements padding-bottom mobile-padding-top">
+            <img src="images/photo4.png" alt="img">
+            <strong>Skylah Lu</strong>
+            <span>UX Designer</span>
+          </div>
+          <div class="w-gallery-elements padding-top">
+            <img src="images/photo5.png" alt="img">
+            <strong>Griff Richards</strong>
+            <span>Developer</span>
+          </div>
+          <div class="w-gallery-elements padding-bottom mobile-padding-top">
+            <img src="images/photo6.png" alt="img">
+            <strong>Stan John</strong>
+            <span>Developer</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="attribution" role="contentinfo"> 
+      created by <a rel="noopener" href="https://twitter.com/la2spaille?t=DKdFp3xhoD0HMBn9TGa6Rw&amp;s=09"><span>@La2spaille</span></a> -
+      <a rel="noopener" href="https://www.devchallenges.io" target="_blank">devChallenges.io</a>
     </div>
   </body>
 </html>
