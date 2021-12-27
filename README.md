@@ -38,6 +38,7 @@
 
 - HTML
 - CSS
+- JavaScript
 
 
 ## Features

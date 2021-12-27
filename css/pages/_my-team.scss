@@ -36,15 +36,22 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    &.padding-top {
-            padding: 100px 0 0;
+    &.blur {
+        filter: blur(2px);
     }
-    &.padding-bottom {
-            padding: 0 0 100px;
+    &.margin-top {
+            margin: 100px 0 0;
+    }
+    &.margin-bottom {
+            margin: 0 0 100px;
     }
     img {
         height: auto;
         width: 100%;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: 0.3s;
+        
     }
     strong {
         padding: 15px 0 0;
