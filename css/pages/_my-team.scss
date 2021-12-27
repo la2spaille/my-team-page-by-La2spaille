@@ -9,6 +9,23 @@
         line-height: 47px;
         letter-spacing: -0.045em;
         color: $black;
+        &::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            position: absolute;
+            bottom: -5px;
+            background: $darkGray;
+            transform: scale(0);
+            transform-origin: center center;
+            transition: 0.7s;
+        }
+        &:hover {
+            &::after {
+                transform: scale(1);
+            }
+        }
     }
 }
 .w-2-units-wrapper-right {
