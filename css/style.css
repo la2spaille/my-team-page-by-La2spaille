@@ -141,6 +141,44 @@ a {
   text-transform: uppercase;
 }
 
+.loader {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 42px);
+  background: #fff;
+}
+
+.loader::after {
+  content: '';
+  height: 100%;
+  width: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(78, 81, 80, 0.1);
+  animation: loaderImg 1s infinite;
+  filter: blur(25px);
+}
+
+.loader.load {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes loaderImg {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+  99% {
+    left: 100%;
+  }
+  100% {
+    opacity: 0;
+    left: 0;
+  }
+}
+
 @media (max-width: 1280px) {
   .l-2-units-wrapper {
     padding: 0 100px;

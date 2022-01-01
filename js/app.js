@@ -20,3 +20,9 @@ allImg.forEach((img,index) => {
     })
     
 })
+window.addEventListener('load', (e) => {
+    document.querySelectorAll('.loader').forEach(loader  => {
+        loader.classList.add('load')
+    })
+    e.stopPropagation()
+})
