@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://my-team-page-master-by-la2spaillevercel.app/">
+    <a href="https://my-team-page-by-la2spaillevercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/la2spaille/my-team-page-master-By-La2spaille">
+    <a href="https://github.com/la2spaille/my-team-page-By-La2spaille">
       Solution
     </a>
     <span> | </span>
