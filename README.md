@@ -1,4 +1,4 @@
-<h1 align="center">my-team-page-master-By-La2spaille</h1>
+<h1 align="center">my-team-page-by-La2spaille</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://my-team-page-by-la2spaillevercel.app/">
+    <a href="https://my-team-page-by-la2spaille.vercel.app/">
       Demo
     </a>
     <span> | </span>
